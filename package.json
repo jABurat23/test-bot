@@ -1,25 +1,18 @@
 {
-  "name": "project_ai",
+  "name": "facebook-messenger-bot",
   "version": "1.0.0",
-  "description": "A secure, production-ready Facebook Messenger chatbot built with Node.js, Express, and PostgreSQL.",
-  "main": "server.js",
+  "description": "Facebook Messenger Bot",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
   "dependencies": {
-    "@google/generative-ai": "^0.24.1",
-    "axios": "^1.13.2",
-    "body-parser": "^2.2.0",
-    "crypto": "^1.0.1",
-    "dotenv": "^17.2.3",
-    "express": "^5.1.0",
-    "helmet": "^8.1.0",
-    "mongodb": "^7.0.0",
-    "mongoose": "^8.19.3"
+    "express": "^4.18.2",
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
