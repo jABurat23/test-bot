@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 
 // Facebook credentials
 const PAGE_ACCESS_TOKEN = process.env.PAGE_ACCESS_TOKEN;
-const VERIFY_TOKEN = process.env.VERIFY_TOKEN || 'your_verify_token';
+const VERIFY_TOKEN = process.env.VERIFY_TOKEN || 'yourgay123';
 
 app.use(bodyParser.json());
 
